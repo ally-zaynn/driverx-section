@@ -100,6 +100,9 @@
   <div id="dxs-grid">
     <div id="dxs-left">
       <div id="dxs-eyebrow">DriverX AI Assistant</div>
+      <div style="background:#16a34a;color:#fff;display:inline-block;padding:6px 14px;border-radius:20px;font-weight:800;font-size:13px;letter-spacing:0.3px;margin-bottom:14px;">
+      ✓ RISK-FREE SIGNUP — FULL REFUND BEFORE ROAD LESSONS
+      </div>
       <h2 id="dxs-heading">Still comparing packages?<span class="dxs-green">Just ask.</span></h2>
       <p id="dxs-desc">Tell the assistant your licence stage and where you live, it explains the differences and recommends one package, with a booking link. No form, no signup.</p>
       <div id="dxs-try-label">Try asking</div>
@@ -138,7 +141,6 @@
   var WEBHOOK_URL = 'https://mateenb.app.n8n.cloud/webhook/fa4b425f-a95a-4464-a182-31f67a402329/chat';
   var TEAM_PHONE_DISPLAY = '+1 (289) 293-9760';
   var TEAM_PHONE_TEL = '+12892939760';
-  var TEAM_WHATSAPP = 'https://wa.me/12892939760';
 
   var messages = document.getElementById('dxs-messages');
   var input = document.getElementById('dxs-input');
@@ -260,7 +262,6 @@
       '</ul>' +
       '<div class="dxs-card-actions">' +
         '<a class="dxs-btn-primary" href="tel:' + TEAM_PHONE_TEL + '">Call ' + TEAM_PHONE_DISPLAY + '</a>' +
-        '<a class="dxs-btn-secondary" href="' + TEAM_WHATSAPP + '" target="_blank" rel="noopener">WhatsApp</a>' +
       '</div>';
     messages.appendChild(card);
     renderChips(['Back to questions']);
